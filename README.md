@@ -1,6 +1,6 @@
 # illumiota
 A Python (12.0) program that can parse a file containing flow log data and maps each row to a tag based on a lookup table for am Illumio Technical Assessment.
-Included are sample files provided that were used to test the program. To compile the program, please make sure needed files are included in directory before running.
+Included are sample files provided that were used to test the program. To compile the program, please make sure needed files (lookup_table.csv, flow_logs.txt, protocol-numbers-1.csv) are included in directory before running.
 
 ## Prompt & Requirements
 Write a program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag. The dstport and protocol combination decide what tag can be applied.  
